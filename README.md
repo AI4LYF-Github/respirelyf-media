@@ -29,7 +29,7 @@ Install a tagged version, then copy the icons into the film's `public/` (the fil
 film always re-renders exactly):
 
 ```json
-"dependencies": { "@ai4lyf/respirelyf-media": "github:<owner>/respirelyf-media#v1.0.0" }
+"dependencies": { "@ai4lyf/respirelyf-media": "github:AI4LYF-Github/respirelyf-media#v1.0.0" }
 ```
 
 Only `brand/` is installed; screens and recordings stay here.
