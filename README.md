@@ -5,6 +5,7 @@ The Respire LYF app's brand assets and reference screens, in one place for every
 ## What's here
 
 ```
+film/           the film guide, a starter template and a Claude Code skill (see "Making a film")
 brand/          installed by the films (versioned by tag)
   icons/determinants/   what shapes breathing: inhaler, medications, supplements, food, hydration, sleep,
                         activity, stress, weather, environment, flare-up
@@ -25,6 +26,19 @@ Captures: iOS app 2.0.1, demo profile ("Maya"), 9 November 2026. The icons are t
 the same drawings as the app's 360 px exports, sharper (the app keeps its own copies). `environmental_factor` is
 97 px in both.
 
+## Making a film
+
+**`film/GUIDE.md`** is the RespireLYF film guide: the must-haves (type, colours, the LYF → Respire LYF™ reveal, the
+grey watermark, the end card), how to start a film, and how versions work as cuts. **`film/template/`** is a ready
+Remotion starter with all of it built in:
+
+```bash
+npx degit AI4LYF-Github/respirelyf-media/film/template my-film && cd my-film && npm install && npm run studio
+```
+
+`film/skill/SKILL.md` is the same as a Claude Code skill (copy it to `~/.claude/skills/respirelyf-film/`), so
+"create a video using respirelyf-media" starts from the template.
+
 ## Using it in a film
 
 This repo is the one library: films never commit icons or the logo. Install a tagged version, and have the
@@ -40,7 +54,7 @@ Only `brand/` is installed; screens and recordings stay here. Tags are never mov
 | Tag | What changed |
 |---|---|
 | v1.0.0 | The app's icons (360 px), the lungs mark and the app icon |
-| v1.1.0 | 14 icons replaced by their 512 px masters (same artwork, sharper); file names unchanged |
+| v1.1.0 | 14 icons replaced by their 512 px masters (same artwork, sharper); file names unchanged. The film kit: `film/GUIDE.md`, the starter template `film/template/`, the `respirelyf-film` skill |
 
 ## Rules
 

@@ -1,0 +1,8 @@
+node_modules/
+out/
+*.mp4
+.DS_Store
+.claude/settings.local.json
+
+# generated from @ai4lyf/respirelyf-media by npm install (scripts/sync-brand.mjs): never commit, never edit
+public/brand/

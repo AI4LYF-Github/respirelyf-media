@@ -1,0 +1,26 @@
+{
+  "name": "respirelyf-film",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A RespireLYF film (Remotion), from the respirelyf-media film template.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Full out/full-1080p60.mp4",
+    "sync-brand": "node scripts/sync-brand.mjs",
+    "postinstall": "node scripts/sync-brand.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai4lyf/respirelyf-media": "github:AI4LYF-Github/respirelyf-media#v1.1.0",
+    "@remotion/cli": "4.0.532",
+    "@remotion/renderer": "4.0.532",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
