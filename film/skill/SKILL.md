@@ -17,7 +17,8 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
 5. **Keep the brand pieces** in `src/film/Film.tsx` (`BrandReveal`, `Watermark`, `EndCard`) and style only from
    `src/film/tokens.ts`. Icons and the logo only through `brand('…')`; never commit `public/brand/`.
 6. **Versions are cuts:** each version (full, short, partner, social) is a `CutDef` in `src/film/cuts/`, registered
-   under `Cuts` in `src/Root.tsx`. Never copy or branch the project per version.
+   under `Cuts` in `src/Root.tsx`. Never copy or branch the project per version. Name every segment (one per scene), so Studio's
+   timeline shows each cut as its chapters.
 7. **Check** with stills (`renderStill`, `chromiumOptions: { gl: 'angle' }`) and `npm run typecheck`; preview in Studio.
    Render an MP4 only when the user asks.
 8. **Version control:** `git init`, a private repo under `AI4LYF-Github` (ask before creating it), topics `video`,

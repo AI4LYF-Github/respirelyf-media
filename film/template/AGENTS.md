@@ -6,6 +6,8 @@ the website, one take, claims).
 
 - Every version of this film is a cut (`src/film/cuts/`), registered under `Cuts` in `src/Root.tsx`. Never copy the
   project or branch it per version.
+- Every segment of a cut has a `name` (one per scene: Intro, Reveal, … End card); Studio shows each as a labelled
+  track. Keep the full cut's chapters contiguous and timed from `beats.ts`.
 - Icons and the logo come only from `brand('…')` (`src/film/brand.ts`), filled into `public/brand/` by `npm install`.
   Never edit or commit `public/brand/`.
 - Keep `BrandReveal`, `Watermark` and `EndCard` in `src/film/Film.tsx`; style comes from `src/film/tokens.ts` only.

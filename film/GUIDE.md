@@ -55,10 +55,10 @@ master take, optionally faster, plus scenes that exist only in that cut.
 ```ts
 // src/film/cuts/short.ts
 export const SHORT: CutDef = [
-  { from: 0, to: 7.5 },                  // the reveal
-  { from: 7.6, to: 12, speed: 1.2 },     // the story, a little quicker
-  { scene: PartnerAsk, seconds: 5 },     // a scene only this cut has
-  { from: 15.8, to: MASTER_SECONDS },    // the end card
+  { name: 'Reveal: Respire LYF', from: 0, to: 7.5 },
+  { name: 'Story', from: 7.6, to: 12, speed: 1.2 },          // a little quicker
+  { name: 'Partner ask', scene: PartnerAsk, seconds: 5 },    // a scene only this cut has
+  { name: 'End card', from: 15.8, to: MASTER_SECONDS },
 ];
 ```
 
@@ -70,6 +70,20 @@ Add it to `CUTS` in `src/film/cuts/Cut.tsx` and register it in `src/Root.tsx`:
 
 Every cut shows up under **Cuts** in the same Studio and renders with `npx remotion render Short out/short.mp4`.
 A shared scene is fixed once, in every cut. Don't branch or copy the project per version.
+
+### Name every chapter
+
+Every segment of a cut has a `name`, and each one shows as its own labelled track on Studio's timeline, so opening a
+cut shows its chapters (Intro, Reveal, Coughs, … End card) and you can jump straight to one. Rules:
+
+- **Name every segment** in plain words, the way you'd describe the scene to someone: "Three quiet days", not "seg4".
+- **Split the full cut into one segment per scene.** Contiguous segments of the master at normal speed (each `from`
+  equals the previous `to`) render exactly like one long segment, so naming chapters never changes a frame. Take the
+  times from `beats.ts`, never type numbers twice.
+- **Don't wrap scenes in your own `<Sequence>` for naming.** `Cut.tsx` already does it; it reads time from the global
+  frame (so nothing shifts) and gives each chapter its own source tag (Studio otherwise folds Sequences made in a loop
+  into one "+N" track).
+- Check a renamed or re-split cut with stills at chapter boundaries: they must be pixel-identical to before.
 
 If a cut needs the same scenes in a **different order**, or a scene told differently, make the scene take the cut as
 a prop (a small switch inside the scene) rather than copying the file.
