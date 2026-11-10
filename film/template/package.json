@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@ai4lyf/respirelyf-media": "github:AI4LYF-Github/respirelyf-media#v1.1.0",
+    "@remotion/bundler": "4.0.532",
     "@remotion/cli": "4.0.532",
     "@remotion/renderer": "4.0.532",
     "react": "^19.0.0",
