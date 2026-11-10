@@ -1,6 +1,6 @@
 {
   "name": "@ai4lyf/respirelyf-media",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Respire LYF brand icons and logo (installed by the films), plus app screen references (browse only).",
   "private": true,
   "files": ["brand/"],

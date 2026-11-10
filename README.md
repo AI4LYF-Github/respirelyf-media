@@ -20,19 +20,27 @@ screens/        reference captures of the live app, by tab (browse only, never r
 recordings/     short screen recordings, by tab
 ```
 
-Captures: iOS app 2.0.1, demo profile ("Maya"), 9 November 2026. The icons are the app's own
-(`respirelyf-react-native/assets/appWideIcons`).
+Captures: iOS app 2.0.1, demo profile ("Maya"), 9 November 2026. The icons are the app's own artwork
+(`respirelyf-react-native/assets/appWideIcons`). Since v1.1.0 they are the 512 px masters the films were made with:
+the same drawings as the app's 360 px exports, sharper (the app keeps its own copies). `environmental_factor` is
+97 px in both.
 
 ## Using it in a film
 
-Install a tagged version, then copy the icons into the film's `public/` (the films keep their own copy, so an old
-film always re-renders exactly):
+This repo is the one library: films never commit icons or the logo. Install a tagged version, and have the
+film copy `brand/` into a gitignored `public/brand/` on `npm install` (Remotion only serves `public/`; see
+`scripts/sync-brand.mjs` in the films). The tag pins the film, so an old film always re-renders exactly:
 
 ```json
-"dependencies": { "@ai4lyf/respirelyf-media": "github:AI4LYF-Github/respirelyf-media#v1.0.0" }
+"dependencies": { "@ai4lyf/respirelyf-media": "github:AI4LYF-Github/respirelyf-media#v1.1.0" }
 ```
 
-Only `brand/` is installed; screens and recordings stay here.
+Only `brand/` is installed; screens and recordings stay here. Tags are never moved: a change is a new tag.
+
+| Tag | What changed |
+|---|---|
+| v1.0.0 | The app's icons (360 px), the lungs mark and the app icon |
+| v1.1.0 | 14 icons replaced by their 512 px masters (same artwork, sharper); file names unchanged |
 
 ## Rules
 
