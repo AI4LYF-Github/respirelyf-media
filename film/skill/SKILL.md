@@ -10,7 +10,13 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
 2. **Start from the template, never from scratch:**
    `npx degit AI4LYF-Github/respirelyf-media/film/template <folder>` → `npm install` → `npm run studio`.
    Rename it in `package.json`. Ask the user for the folder name and the film's audience and goal if not given.
-3. **Story before code:** agree the beats (`src/film/beats.ts`) and a timed voiceover script (`storyboard/voiceover.md`)
+3. **Story before code:** start from `film/story-shape.md` in respirelyf-media:
+   - the hook
+   - the five-step loop
+   - the bigger-picture outro: one signal → every signal → day by day → her Breathing Fingerprint
+   - the call to action
+
+   A single-signal video always ends on the bigger picture. Then agree the beats (`src/film/beats.ts`) and a timed voiceover script (`storyboard/voiceover.md`)
    with the user. Write every on-screen and spoken word with the `respire-lyf-copy` skill.
    **Words are the backbone of every video:**
    - Before writing any line, read the line bank and its "How to write a line": `film/line-bank.md` in

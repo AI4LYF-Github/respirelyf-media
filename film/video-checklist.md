@@ -9,8 +9,12 @@ read `line-bank.md` (and how to write a line, at its top) before writing any voi
 - [ ] **The whole loop, every time.** Capture → Understand → Act → See progress → Improve (the app's own five stages,
       onboarding V8). Even a single-feature video (food, cough, peak flow) shows the loop. A video that stops at "it
       noticed" or at tracking isn't finished. Without the loop, everything is confusing for the user.
+- [ ] **Started from `story-shape.md`:** hook, the five-step loop, the bigger-picture outro, then the call to action.
 - [ ] **Bigger picture for one signal.** A video about one signal ends by tying it to the rest: "Other trackers tell you
-      the cough count. Respire LYF puts it in the bigger picture." Show the donut for at least 2 seconds as a teaser.
+      the cough count. Respire LYF puts it in the bigger picture." Use the outro in `story-shape.md`:
+      1. the signal joins the donut of every signal, held for at least 2 seconds
+      2. day by day
+      3. her Breathing Fingerprint
 - [ ] **End on long-term value.** Health is long-term and continuous; the last beat says so. The model is the 31-second
       food clip:
       - The first 10 seconds are the wow.
