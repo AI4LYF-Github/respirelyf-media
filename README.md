@@ -36,6 +36,7 @@ Remotion starter with all of it built in:
 npx degit AI4LYF-Github/respirelyf-media/film/template my-film && cd my-film && npm install && npm run studio
 ```
 
+**`film/motion.md`** is how a film moves (transitions, camera, motion inside the shot, screens rebuilt in code),
 **`film/line-bank.md`** is how we write every voiceover line, heading and subtitle (a quality bar, not a menu), and
 **`film/video-checklist.md`** is what every video must have (12 Nov 2026).
 

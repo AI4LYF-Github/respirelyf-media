@@ -23,8 +23,13 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
      - the outro: Download Respire LYF, website, "Patent-protected technology.", the L8 disclaimer, then
        partnerships@ai4lyf.com at the very end
      - a "compatible watch", never "Apple Watch"
-4. **Build scenes** in `src/film/scenes/`, one take: scene changes are camera moves, values are pure functions of time.
-   Rebuild app screens in code from `screens/` in respirelyf-media; never put screenshots or recordings in a film.
+4. **Build scenes** in `src/film/scenes/`, one take. Read `film/motion.md` in respirelyf-media first:
+   - **Motion is half the film.** Design every transition as a camera move that carries meaning, with one element
+     handed across. Draft several ideas per transition and keep the best, the same as a line.
+   - Something moves in every held shot.
+   - Values are pure functions of time.
+   - **Never an app screenshot or screen recording**, not even as a placeholder. Rebuild every screen exactly in code
+     from `screens/` and the app source, in pieces, so each element animates on its own.
 5. **Keep the brand pieces** in `src/film/Film.tsx` (`BrandReveal`, `Watermark`, `EndCard`) and style only from
    `src/film/tokens.ts`. Icons and the logo only through `brand('…')`; never commit `public/brand/`.
 6. **Versions are cuts:** each version (full, short, partner, social) is a `CutDef` in `src/film/cuts/`, registered

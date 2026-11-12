@@ -47,6 +47,15 @@ read `line-bank.md` (and how to write a line, at its top) before writing any voi
 - [ ] **Patent-protected technology.** sits on every inhaler scene, every cough scene and the outro (Ali: the patent
       line goes everywhere). The wording is exact: never "patented", "patent-pending" or a patent number.
 
+## Motion
+
+- [ ] **Every transition designed:** a camera move that says how two things connect, with one element handed across.
+      Never a cut, fade or wipe. See `motion.md`.
+- [ ] **Motion everywhere:** no frozen frame. Held shots breathe, values count, charts draw, chips stagger in, exits
+      recede.
+- [ ] **No app screenshots or recordings, ever.** Every screen is rebuilt in code, in pieces, and animated.
+- [ ] **Checked in motion** in Studio, every transition scrubbed frame by frame, and the whole film watched once muted.
+
 ## Look and format
 
 - [ ] Light mode, SF Pro 800, big type, one take: the must-haves in `GUIDE.md`.
