@@ -44,6 +44,7 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
      handed across. Draft several ideas per transition and keep the best, the same as a line.
    - Something moves in every held shot.
    - Values are pure functions of time.
+   - AI live-action shots only for the human moments; follow `film/ai-footage.md` (inhaler shots, phone screens).
    - **Never an app screenshot or screen recording**, not even as a placeholder. Rebuild every screen exactly in code
      from `screens/` and the app source, in pieces, so each element animates on its own.
 5. **Keep the brand pieces** in `src/film/Film.tsx` (`BrandReveal`, `Watermark`, `EndCard`) and style only from

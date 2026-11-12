@@ -36,6 +36,8 @@ Remotion starter with all of it built in:
 npx degit AI4LYF-Github/respirelyf-media/film/template my-film && cd my-film && npm install && npm run studio
 ```
 
+**`film/ai-footage.md`** is how to make AI live-action shots right (inhaler shots, phone screens; tool in
+`film/tools/`),
 **`film/story-shape.md`** is the starting point for every video's story (the loop, then the bigger-picture outro),
 **`film/motion.md`** is how a film moves (transitions, camera, motion inside the shot, screens rebuilt in code),
 **`film/line-bank.md`** is how we write every voiceover line, heading and subtitle (a quality bar, not a menu), and
