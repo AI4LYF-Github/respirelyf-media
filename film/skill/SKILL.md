@@ -12,6 +12,17 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
    Rename it in `package.json`. Ask the user for the folder name and the film's audience and goal if not given.
 3. **Story before code:** agree the beats (`src/film/beats.ts`) and a timed voiceover script (`storyboard/voiceover.md`)
    with the user. Write every on-screen and spoken word with the `respire-lyf-copy` skill.
+   **Words are the backbone of every video:**
+   - Before writing any line, read the line bank and its "How to write a line": `film/line-bank.md` in
+     respirelyf-media (next to the guide).
+   - Think and reason it through, draft several versions per line, and keep the best. The bank is a starting point,
+     never lines to copy.
+   - Meet the must-haves in `film/video-checklist.md` in respirelyf-media:
+     - the full 5-step loop, even in a single-feature video
+     - an ending on long-term value
+     - the outro: Download Respire LYF, website, "Patent-protected technology.", the L8 disclaimer, then
+       partnerships@ai4lyf.com at the very end
+     - a "compatible watch", never "Apple Watch"
 4. **Build scenes** in `src/film/scenes/`, one take: scene changes are camera moves, values are pure functions of time.
    Rebuild app screens in code from `screens/` in respirelyf-media; never put screenshots or recordings in a film.
 5. **Keep the brand pieces** in `src/film/Film.tsx` (`BrandReveal`, `Watermark`, `EndCard`) and style only from

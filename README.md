@@ -36,6 +36,9 @@ Remotion starter with all of it built in:
 npx degit AI4LYF-Github/respirelyf-media/film/template my-film && cd my-film && npm install && npm run studio
 ```
 
+**`film/line-bank.md`** is how we write every voiceover line, heading and subtitle (a quality bar, not a menu), and
+**`film/video-checklist.md`** is what every video must have (12 Nov 2026).
+
 `film/skill/SKILL.md` is the same as a Claude Code skill (copy it to `~/.claude/skills/respirelyf-film/`), so
 "create a video using respirelyf-media" starts from the template.
 
