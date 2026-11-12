@@ -23,7 +23,7 @@ Think it through before you write. Take your time on every line; this is the wor
    - a framing chosen
    - a hybrid of two options
    - an expressive take
-   That's the normal level of effort, not the exception.
+   That's the normal level of effort, not the exception. Follow "Iterate every line" below.
 5. **Close the loop.** Check the script reaches Act and points at long-term value: see `video-checklist.md`.
 6. **Run the gate.** Check every line with the `respire-lyf-copy` skill:
    - association words only
@@ -36,6 +36,63 @@ Think it through before you write. Take your time on every line; this is the wor
    with line one in ink and line two in accent blue. A subtitle follows the spoken phrase, never a paraphrase.
 
 When you add a line that proves itself in a video, add it here.
+
+## Iterate every line (how the food line was made)
+
+Do this for every voiceover line, every headline and the film's closing line. Small labels can go lighter, but they
+still pass the gate. Never ship the first draft of a line that matters.
+
+1. **Raw idea.** One plain sentence: what this beat must make the viewer believe, and how many seconds it has.
+2. **Go wide on angles, not wording.** Get at least five framings that differ in angle, not five rewordings of one.
+   Angles worth trying:
+   - the contrast with a tracker, an alert, a video or a meter
+   - a moment in her real day ("by lunch", "at the puff")
+   - the patience beat: it keeps going over time
+   - the viewer's own thought
+   - one surprising image
+
+   **Use agents for this round.** Start three to five agents in parallel, one angle each, with deep reasoning, using
+   the brief below. Each returns three drafts. Without agents, take each angle in turn yourself and reason it through
+   before drafting.
+3. **Critique, separately.** A fresh agent (or a separate pass, never the one that drafted) scores every draft:
+   - Does it land in one listen?
+   - Is there one concrete image?
+   - Is there a two-beat contrast?
+   - Does it move the loop forward?
+   - Does it pass the copy gate?
+   - Does it fit the seconds?
+
+   Cut every generic line, then rewrite the survivors' weak halves.
+4. **Show the user the best three to five** side by side, each with its length in seconds and one line on why it
+   works. The user picks the framing; don't pick silently on a line that matters.
+5. **Hybrid and tighten.** Combine the strongest halves of the chosen options. Cut every word that doesn't earn its
+   place, then read it aloud at the beat's length.
+6. **Performance pass.** Write the spoken take with pauses (`/` short, `//` a breath) and ElevenLabs audio tags.
+   Generate it, listen, and adjust the words or tags until the delivery lands. Sometimes this round changes the line.
+7. **Lock.** Put the final line in the script with its runner-up beside it. If it proves itself in the video, add it
+   to this bank.
+
+**Brief for each drafting agent** (fill in the brackets):
+
+> You're writing one voiceover line for a Respire LYF video. Read `film/line-bank.md` ("How to write a line") and
+> follow the `respire-lyf-copy` skill's rules: association words only, no numbers about outcomes, no timed promises,
+> "her watch" or "a compatible watch".
+> - Beat: [what's on screen].
+> - Viewer: [who] believes [X] before and must believe [Y] after.
+> - Length: [N] seconds spoken.
+> - Your angle: [one angle].
+>
+> Think it through before writing. Return three drafts, each with its spoken length and one line on why it lands.
+
+**The food clip, as the worked example:**
+- Raw idea: it remembers what she ate.
+- Five framings from different angles.
+- The user picked one: "a tracker would forget it by lunch."
+- A hybrid of two options.
+- An expressive take with audio tags.
+
+The final line: "A tracker would forget it by lunch. Her breathing co-pilot won't. It keeps connecting it, quietly,
+every time she has it again, until she has her answer, one way or the other."
 
 ## Lines by feature
 

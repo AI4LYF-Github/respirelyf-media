@@ -17,6 +17,16 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
      respirelyf-media (next to the guide).
    - Think and reason it through, draft several versions per line, and keep the best. The bank is a starting point,
      never lines to copy.
+   - **Iterate every line** as in the bank's "Iterate every line":
+     1. Write the raw idea.
+     2. Start three to five drafting agents in parallel, one angle each, with deep reasoning.
+     3. Have a separate critic score the drafts.
+     4. Show the user the best three to five.
+     5. Make a hybrid of the strongest, then tighten it.
+     6. Do a performance pass with audio tags.
+     7. Lock the line.
+
+     Never ship the first draft.
    - Meet the must-haves in `film/video-checklist.md` in respirelyf-media:
      - the full 5-step loop, even in a single-feature video
      - an ending on long-term value

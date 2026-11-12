@@ -25,6 +25,13 @@ read `line-bank.md` (and how to write a line, at its top) before writing any voi
 ## Words
 
 - [ ] Every line goes through the `respire-lyf-copy` skill, and through "How to write a line" in `line-bank.md`.
+- [ ] **Every line iterated** ("Iterate every line" in `line-bank.md`):
+      - several framings, drafted in parallel by agents
+      - a separate critique
+      - the user picks from the best options
+      - a hybrid, then a performance pass
+
+      No first drafts in a finished video.
 - [ ] **Association words only:** "lines up with", "moves with", "tends to come with". Never triggers, causes, predicts,
       or "does to you".
 - [ ] **No numbers** about users, outcomes or accuracy. No timed promises ("in a week", "by month one").
