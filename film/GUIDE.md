@@ -50,7 +50,16 @@ Then:
   Tags are never moved or deleted, so an old film always re-renders exactly.
 - A film's own one-off assets (a meal photo, a voice clip) live in its own `public/`, outside `brand/`.
 
-## Versions are cuts
+## Formats: 1080p at 60 fps, every time
+
+- **Every composition is 60 fps.** Never 30, 25 or 24, not for a test, an eval, a draft or a social cut. `FPS` in
+  `time.ts` is 60, and every `<Composition>` takes `fps={FPS}`; never type the number.
+- **16:9 is 1920 × 1080. 9:16 is 1080 × 1920.** Add 1:1 (1080 × 1080) or 4:5 (1080 × 1350) only when a platform asks
+  for it. Never below 1080 on the short side.
+- Render with `npx remotion render <Id> out/<id>.mp4`, which keeps the composition's size and 60 fps. Never pass a
+  lower `--fps` or a `--scale` under 1.
+
+## Versions are cuts, from the first day
 
 One codebase per film, many versions. Each version is a **cut**: a Remotion composition that plays stretches of the
 master take, optionally faster, plus scenes that exist only in that cut.
@@ -73,6 +82,38 @@ Add it to `CUTS` in `src/film/cuts/Cut.tsx` and register it in `src/Root.tsx`:
 
 Every cut shows up under **Cuts** in the same Studio and renders with `npx remotion render Short out/short.mp4`.
 A shared scene is fixed once, in every cut. Don't branch or copy the project per version.
+
+The rules, for every new film:
+- **Cuts from the start.** `Root.tsx` registers only cuts, inside `<Folder name="Cuts">`: no stray composition per idea,
+  no copied project, no branch per version. Even a film with one version is a `Full` cut.
+- **Ideas are cuts too.** A different opening, or a scene told another way, is a cut with that scene as its own
+  segment, so the ideas sit side by side in Studio and nothing is thrown away. The demo film tells its day three ways
+  this way: Day-A-Halo, Day-B-Ring and Day-C-Quiet-Line.
+- **Names:** composition ids in plain words with hyphens: `Full`, `Short`, `Partner`, `Social`, `Full-Vertical`,
+  `Day-B-Ring`. Every segment inside has a name too (below).
+
+### 16:9 and 9:16 from the same cut
+
+A vertical version is another composition of the same cut at 1080 × 1920, in its own folder:
+
+```tsx
+<Folder name="Cuts">
+  <Composition id="Full" component={Cut} defaultProps={{ cut: 'full' as const }} durationInFrames={cutFrames(CUTS.full)} fps={FPS} width={1920} height={1080} />
+  <Folder name="Vertical">
+    <Composition id="Full-Vertical" component={Cut} defaultProps={{ cut: 'full' as const }} durationInFrames={cutFrames(CUTS.full)} fps={FPS} width={1080} height={1920} />
+  </Folder>
+</Folder>
+```
+
+- **Scenes never assume 1920 × 1080.** Read `const { width, height } = useVideoConfig()` and lay out for both
+  (`const vertical = height > width`). Things that sit side by side in 16:9 stack in 9:16. The phone stays big and
+  central, and type stays big.
+- **Never crop, pillarbox or letterbox** a 16:9 render into 9:16. Lay it out again; the camera moves can change too.
+- If the vertical story should be shorter or in a different order, make it its own cut (`cuts/vertical.ts`) built from
+  the same scenes, registered as `Vertical` or `Short-Vertical`.
+- Check every format with stills at the same seconds, and watch each one in motion.
+- The template's kit (`BrandReveal`, `EndCard`, `Example`) is laid out for 16:9 today. Make each piece read the format
+  before you ship a vertical.
 
 ### Name every chapter
 

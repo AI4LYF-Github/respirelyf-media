@@ -32,9 +32,14 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
      from `screens/` and the app source, in pieces, so each element animates on its own.
 5. **Keep the brand pieces** in `src/film/Film.tsx` (`BrandReveal`, `Watermark`, `EndCard`) and style only from
    `src/film/tokens.ts`. Icons and the logo only through `brand('…')`; never commit `public/brand/`.
-6. **Versions are cuts:** each version (full, short, partner, social) is a `CutDef` in `src/film/cuts/`, registered
-   under `Cuts` in `src/Root.tsx`. Never copy or branch the project per version. Name every segment (one per scene), so Studio's
-   timeline shows each cut as its chapters.
+6. **Cuts from the first day:** follow "Formats" and "Versions are cuts" in `film/GUIDE.md`.
+   - Every version (full, short, partner, social) and every idea (another opening, a scene told another way) is a
+     `CutDef` in `src/film/cuts/`, registered under `Cuts` in `src/Root.tsx`. Nothing else goes in `Root.tsx`.
+   - Never copy or branch the project per version.
+   - Name every segment, one per scene, so Studio's timeline shows each cut as its chapters.
+   - **1080p at 60 fps, always** (`fps={FPS}`, never 30, 25 or 24): 16:9 is 1920 × 1080; 9:16 is 1080 × 1920.
+   - A vertical version is a `<Name>-Vertical` composition of the same cut under `Cuts/Vertical`. Scenes lay out from
+     `useVideoConfig()`, never by cropping 16:9.
 7. **Check** with stills (`renderStill`, `chromiumOptions: { gl: 'angle' }`) and `npm run typecheck`; preview in Studio.
    Render an MP4 only when the user asks.
 8. **Version control:** `git init`, a private repo under `AI4LYF-Github` (ask before creating it), topics `video`,

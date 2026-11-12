@@ -59,7 +59,10 @@ read `line-bank.md` (and how to write a line, at its top) before writing any voi
 ## Look and format
 
 - [ ] Light mode, SF Pro 800, big type, one take: the must-haves in `GUIDE.md`.
-- [ ] **Vertical where possible** for social and in-app, but only if the value proposition still comes through.
+- [ ] **1080p at 60 fps:** 1920 × 1080 for 16:9, 1080 × 1920 for 9:16. Never 30 fps.
+- [ ] **Cuts from the start:** every version and every idea is a named cut under `Cuts`, with every segment named.
+- [ ] **Vertical where possible** for social and in-app, but only if the value proposition still comes through. It's a
+      `-Vertical` composition of the same cut, laid out again for 9:16, never a crop.
 - [ ] **Wow moments look real** (the food rating, the nutrients). The rest can be CGI.
 - [ ] **COPD videos** use middle-aged and older characters people can relate to.
 
