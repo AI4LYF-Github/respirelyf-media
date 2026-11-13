@@ -72,6 +72,9 @@ From the 13 Nov 2026 product-demo audit (`audits/2026-11-13-product-demo.md`). E
   with the website's subtitles where words are needed.
 
 **Voice**
+- **Budget the devices across the whole film.** Questions, "not X, Y" and any key image word each appear once or twice;
+  count the lines that stay, not just the new ones.
+- **Give the script one spine of words** that carries the loop forward, so the lines don't have to name the stages.
 - **Association language, spoken naturally:** "high pollen and short sleep lined up with more coughing", not a list of
   nouns that reads the card on screen.
 - **The voice never reads the screen.** If the words are on screen, the voice says something else.
