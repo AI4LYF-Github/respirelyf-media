@@ -154,8 +154,8 @@ script. The user chose that set. The record is in the film repo's `storyboard/li
 | 4:47 | 3 · Act | Beat → **What she tries** (dinner before 7:30), her week of tests, the one-tap check-back, her answers | **"The test happens in her kitchen. Each night, her co-pilot checks back… her answer shapes what's next."** |
 | 5:01 | 4 · See progress | Beat → Trends (**23–29 Nov**) → Report (**November vs October**, the nights she tried it marked) | **"Week by week, her line settles…"** **"Memory blurs a month. Her report marks the nights."** **"Her appointment is short. Her month isn't. She brings it."** |
 | 5:34 | 5 · Improve | Beat → the 50 threads **fold into her fingerprint's ridges**, her patterns in colour | **"A clue, tested night after night, becomes a thread in her Breathing Fingerprint. What helps, stays. What doesn't, falls away. Hers."** |
-| 5:47 | — | The loop seen whole (yarn, no cards) | **"Diabetes got its loop. So did the heart. Breathing waited decades."** |
-| 6:02 | — | End card | **"Give Respire Life a minute. Live the rest. Learn more at respire life dot com."** |
+| 5:44 | — | The loop seen whole (yarn, no cards) | **"Diabetes got its loop. So did the heart. Breathing waited decades."** |
+| 5:59 | — | End card | **"Give Respire Life a minute. Live the rest. Learn more at respire life dot com."** |
 
 **What each verdict became:**
 
