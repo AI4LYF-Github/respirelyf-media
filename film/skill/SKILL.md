@@ -59,5 +59,7 @@ description: Start or extend a RespireLYF video (Remotion) the house way. Use wh
      `useVideoConfig()`, never by cropping 16:9.
 7. **Check** with stills (`renderStill`, `chromiumOptions: { gl: 'angle' }`) and `npm run typecheck`; preview in Studio.
    Render an MP4 only when the user asks.
+   Before picture lock, run the story and timing audit in `film/story-audit.md` (an agent's pass plus the user's notes,
+   both judged against the film) and record it in `film/audits/`.
 8. **Version control:** `git init`, a private repo under `AI4LYF-Github` (ask before creating it), topics `video`,
    `remotion`, `motion-graphics`, `respirelyf`. No tags while work is in progress.
