@@ -131,9 +131,9 @@ Other findings:
   separate critic, then the user picks. The picture is rebuilt to the locked lines.
 - **Rename "Sense" to "Capture".**
 
-## After (13 Nov 2026, picture rebuilt; new lines not yet voiced)
+## After (13 Nov 2026, picture rebuilt and the new lines voiced)
 
-**Lines.** Five drafting agents wrote three drafts per beat, one angle each: contrast, a moment in her day, patience,
+**Lines.** The user then put their own words back on four beats (the co-pilot, the quiet days, the nudge, the close): the critic's set had drifted from the user's framing there. Lesson: show the user's raw lines beside the polished ones, never only the critic's pick. Before that, five drafting agents wrote three drafts per beat, one angle each: contrast, a moment in her day, patience,
 the viewer's thought, one surprising image. A separate critic scored all 75 and proposed one set that reads as a single
 script. The user chose that set. The record is in the film repo's `storyboard/lines/` (`brief.md`, `draft-*.md`,
 `critic.md`, `locked.md`). Lessons from the critic, now rules in `../story-audit.md`:
@@ -145,23 +145,23 @@ script. The user chose that set. The record is in the film repo's `storyboard/li
 
 | Time | Stage | What plays | Voice (new lines in bold) |
 |---|---|---|---|
-| 0:00 | — | Opening | …**"Trackers stop when you do. We built a breathing co-pilot."** |
+| 0:00 | — | Opening | …**"So we built the world's first breathing co-pilot."** (the user's line; "world's first" is the user's approved claim) |
 | 0:46 | — | Lockup → **Maya** rises with a 24-hour dial | "This is Maya. Here are her next twenty-four hours." |
 | 0:52 | 1 · Capture | Loop beat (out of Maya) → every signal | unchanged |
 | 3:41 | 1 · Capture | Donut → **10 × 5 web** (yarn; Maya's links light) → heading **"Fifteen signals a day. / One fingerprint to find."** → back into the donut | **"Like her hands… her breathing has a fingerprint. It hides where all these lines cross… so her co-pilot goes looking."** |
-| 4:00 | 1 · Capture | Day Ring; three quiet days (its early "three nights" reveal removed) | **"She stopped. Her watch didn't. And Saturday evening… her co-pilot finds her."** |
-| 4:22 | 2 · Understand | Beat → **"Three quiet days. / One timely nudge."** → MEEP → Insights (its worth-trying card moved to Act) | **"Short sleep, high pollen… lined up with her coughing nights."** **"Six nights she'd have called bad luck…"** |
+| 4:00 | 1 · Capture | Day Ring; three quiet days (its early "three nights" reveal removed) | **"A tracker would have left her behind. Her co-pilot didn't. Three days… nothing logged."** (the user's line) |
+| 4:22 | 2 · Understand | Beat → **"Three quiet days. / One timely nudge."** → MEEP, held 3.5 s longer → Insights (its worth-trying card moved to Act) | **"And still… a nudge made just for her, from what her watch and phone sensed on their own."** (the user's line) **"Short sleep, high pollen… lined up with her coughing nights."** **"Six nights she'd have called bad luck…"** |
 | 4:47 | 3 · Act | Beat → **What she tries** (dinner before 7:30), her week of tests, the one-tap check-back, her answers | **"The test happens in her kitchen. Each night, her co-pilot checks back… her answer shapes what's next."** |
 | 5:01 | 4 · See progress | Beat → Trends (**23–29 Nov**) → Report (**November vs October**, the nights she tried it marked) | **"Week by week, her line settles…"** **"Memory blurs a month. Her report marks the nights."** **"Her appointment is short. Her month isn't. She brings it."** |
 | 5:34 | 5 · Improve | Beat → the 50 threads **fold into her fingerprint's ridges**, her patterns in colour | **"A clue, tested night after night, becomes a thread in her Breathing Fingerprint. What helps, stays. What doesn't, falls away. Hers."** |
 | 5:44 | — | The loop seen whole (yarn, no cards) | **"Diabetes got its loop. So did the heart. Breathing waited decades."** |
-| 5:59 | — | End card | **"Give Respire Life a minute. Live the rest. Learn more at respire life dot com."** |
+| 5:59 | — | End card | **"You live your fullest… while Respire Life does the rest. Learn more at respire life dot com."** (the user's line) |
 
 **What each verdict became:**
 
 | # | Became |
 |---|---|
-| 1 | No "first" anywhere; the co-pilot line is the contrast instead. |
+| 1 | "So we built the world's first breathing co-pilot.": the user confirmed the claim is approved. |
 | 2 | Maya's own scene before the Capture beat. |
 | 3 | The fingerprint is planted at the 10 × 5, paid off at Improve. |
 | 4 | The no-log nudge, with tracker vs co-pilot said through the voice only. |
@@ -172,7 +172,7 @@ script. The user chose that set. The record is in the film repo's `storyboard/li
 | 9 | November report with the nights marked. |
 | 10 | A yarn fingerprint built from the web's own threads. |
 | 11 | The finale line, investor cut only. |
-| 12 | "Give Respire Life a minute. Live the rest." |
+| 12 | The user kept "does the rest": "You live your fullest… while Respire Life does the rest." |
 
 Also from the review: "Sense" is now **Capture**; the dates are on one timeline (October insight → November test →
 late-November trends → November report); and the phone screens show November, not April.
@@ -182,4 +182,3 @@ late-November trends → November report); and the phone screens show November, 
 - Decide on the compatible-watch footnote.
 - Decide on pollen in November.
 - Remake the music for the new length.
-- Voice the 12 new lines.
